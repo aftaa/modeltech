@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+    {% for object in objects %}
+        {{ object.brand }}
+    {% endfor %}
+{% endblock %}

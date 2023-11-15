@@ -31,11 +31,17 @@ class CarCsvParser
         while (false !== ($s = fgets($f))) {
             if (preg_match(self::PCRE, $s, $matches)) {
                 array_shift($matches);
-                $matches[4] = strlen($matches[4]) > 0 ? new CarBodyWhl(...explode('x', $matches[4])) : null;
+                $matches[4] = $this->parseWhl($matches[4]);
                 $carsDataRows[] = new CarDataRow(...$matches);
             }
         }
         fclose($f);
         return $carsDataRows;
+    }
+
+    public function parseWhl($string): ?CarBodyWhl
+    {
+        $parsed = explode('x', $string);
+        return strlen($string) > 0 ? new CarBodyWhl(...$parsed) : null;
     }
 }

@@ -7,13 +7,13 @@ use App\DTO\CarBodyWhl;
 use App\DTO\CarDataRow;
 use Exception;
 
-use function file_exists;
-use function preg_match;
 use function array_shift;
-use function strlen;
 use function explode;
-use function fopen;
 use function fclose;
+use function file_exists;
+use function fopen;
+use function preg_match;
+use function strlen;
 
 
 class CarCsvParser

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14f0bc36-040a-4844-8d21-9f8e60d398ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Service/GetCarList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/GetCarList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/CarCsvParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser/CarCsvParser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700021203509</updated>
-      <workItem from="1700021205375" duration="15310000" />
+      <workItem from="1700021205375" duration="15651000" />
     </task>
     <servers />
   </component>

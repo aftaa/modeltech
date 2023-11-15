@@ -7,6 +7,13 @@ use App\DTO\CarBodyWhl;
 use App\DTO\CarDataRow;
 use Exception;
 
+use function file_exists;
+use function preg_match;
+use function array_shift;
+use function strlen;
+use function explode;
+
+
 class CarCsvParser
 {
     const PCRE = '/(car|truck|spec_machine);([^;]+);(\d*);([^;]*);([x\d.]*);([\d.]*);([^;]*);/';

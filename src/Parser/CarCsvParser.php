@@ -39,9 +39,12 @@ class CarCsvParser
         return $carsDataRows;
     }
 
-    public function parseWhl($string): ?CarBodyWhl
+    public function parseWhl(string $whl): ?CarBodyWhl
     {
-        $parsed = explode('x', $string);
-        return strlen($string) > 0 ? new CarBodyWhl(...$parsed) : null;
+        if (strlen($whl) > 0) {
+            $parsed = explode('x', $whl);
+            return new CarBodyWhl(...$parsed);
+        }
+        return null;
     }
 }

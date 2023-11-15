@@ -15,7 +15,7 @@ class IndexController extends AbstractController
     #[Route('/', name: 'app_index')]
     public function index(): never
     {
-        $objects = (new GetCarList())('data.scv');
+        $objects = (new GetCarList())('data.csv');
         echo 'Truck[1] body volume: ', $objects[1]->getBodyVolume(), '<br>';
 
         foreach ($objects as $object) {

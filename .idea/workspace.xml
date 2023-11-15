@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14f0bc36-040a-4844-8d21-9f8e60d398ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modeltech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modeltech.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/SpecMachine.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/SpecMachine.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Truck.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Truck.php" afterDir="false" />
-    </list>
+    <list default="true" id="14f0bc36-040a-4844-8d21-9f8e60d398ba" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +177,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700021203509</updated>
-      <workItem from="1700021205375" duration="13481000" />
+      <workItem from="1700021205375" duration="14117000" />
     </task>
     <servers />
   </component>

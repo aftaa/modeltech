@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 namespace App\Model;
 
+use function pathinfo;
+
 class BaseCar
 {
     private CarType $carType;

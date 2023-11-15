@@ -9,15 +9,17 @@ use App\Factory\TruckFactory;
 use App\Model\BaseCar;
 use App\Model\CarType;
 use App\Parser\CarCsvParser;
+use Exception;
 
 class GetCarList
 {
     /**
      * @return BaseCar[]
+     * @throws Exception
      */
     public function __invoke(string $filename): array
     {
-        $parser = new CarCsvParser('data.csv');
+        $parser = new CarCsvParser($filename);
         $carDataRows = $parser->parse();
 
         $objects = [];

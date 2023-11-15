@@ -3,8 +3,6 @@ declare(strict_types=1);
 
 namespace App\Model;
 
-use App\Model\BaseCar;
-
 final class Truck extends BaseCar
 {
     private float $bodyLength;

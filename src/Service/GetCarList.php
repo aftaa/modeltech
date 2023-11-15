@@ -7,10 +7,7 @@ use App\Factory\CarFactory;
 use App\Factory\SpecMachineFactory;
 use App\Factory\TruckFactory;
 use App\Model\BaseCar;
-use App\Model\Car;
 use App\Model\CarType;
-use App\Model\SpecMachine;
-use App\Model\Truck;
 use App\Parser\CarCsvParser;
 
 class GetCarList

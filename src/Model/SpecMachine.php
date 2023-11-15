@@ -3,8 +3,6 @@ declare(strict_types=1);
 
 namespace App\Model;
 
-use App\Model\BaseCar;
-
 class SpecMachine extends BaseCar
 {
     private string $extra;

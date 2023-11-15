@@ -12,6 +12,8 @@ use function preg_match;
 use function array_shift;
 use function strlen;
 use function explode;
+use function fopen;
+use function fclose;
 
 
 class CarCsvParser

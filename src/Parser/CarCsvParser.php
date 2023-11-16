@@ -11,6 +11,7 @@ use function array_shift;
 use function explode;
 use function fclose;
 use function file_exists;
+use function fgets;
 use function fopen;
 use function preg_match;
 use function strlen;

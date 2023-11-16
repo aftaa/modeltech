@@ -3,8 +3,10 @@ declare(strict_types=1);
 
 namespace App\Parser;
 
-use App\DTO\CarBodyWhl;
-use App\DTO\CarDataRow;
+use App\DTO\{
+    CarBodyWhl,
+    CarDataRow,
+};
 use Exception;
 
 use function array_shift;

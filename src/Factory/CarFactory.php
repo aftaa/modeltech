@@ -4,8 +4,10 @@ declare(strict_types=1);
 namespace App\Factory;
 
 use App\DTO\CarDataRow;
-use App\Model\Car;
-use App\Model\CarType;
+use App\Model\{
+    Car,
+    CarType,
+};
 
 class CarFactory
 {
